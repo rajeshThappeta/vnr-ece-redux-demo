@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+1. Install @reduxjs/toolkit and react-redux modules
+2. Create redux store
+3. Provide redux store to React app
+4. Create a slice(part of the state)
+5. Add this slice to store
+
+6. Let react components consumes the state of redux store
