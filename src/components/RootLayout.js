@@ -5,7 +5,8 @@ function RootLayout() {
   return (
     <div>
       <Link to="increment" className="me-5">Increment</Link>
-      <Link to="decrement">Decrement</Link>
+      <Link to="decrement" className="me-5">Decrement</Link>
+      <Link to="users">Users</Link>
       <Outlet />
     </div>
   );

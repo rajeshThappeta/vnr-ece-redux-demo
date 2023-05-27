@@ -69,8 +69,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
-
 1. Install @reduxjs/toolkit and react-redux modules
 2. Create redux store
 3. Provide redux store to React app
@@ -78,3 +76,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 5. Add this slice to store
 
 6. Let react components consumes the state of redux store
+
+## MAKING API REQ FROM REDUX SLICE
+
+1. Create a new slice and add it to store
+2. Make API req
+
+
+res==> data,status(201,200)

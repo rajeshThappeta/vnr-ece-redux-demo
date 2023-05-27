@@ -5,6 +5,7 @@ import RootLayout from './components/RootLayout'
 import IncrementCounter from './components/IncrementCounter';
 import DecrementCounter from './components/DecrementCounter';
 import {useSelector} from 'react-redux'
+import Users from './components/Users';
 
 
 function App() {
@@ -24,6 +25,10 @@ function App() {
         {
           path:'decrement',
           element:<DecrementCounter />
+        },
+        {
+          path:'users',
+          element:<Users />
         }
       ]
     }
